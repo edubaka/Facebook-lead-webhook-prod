@@ -62,7 +62,7 @@
 				  // Free up the resources $curl is using
 				  curl_close($curl);		   
 			  	  file_put_contents('Retorno.txt', print_r($result,true));			
-							  
+				  file_put_contents('globals.txt',print_r($GLOBALS,true));  
 		}
 	
 		
