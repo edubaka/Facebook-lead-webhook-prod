@@ -1,0 +1,6 @@
+{
+    "require": {
+	"ext-mbstring": "*",
+        "facebook/php-ads-sdk": "2.8.*"
+    }
+}
